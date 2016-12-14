@@ -4,9 +4,9 @@
 Echo 'Installing local printers....'
 
 $user = 'eas\eas-phillip.trimble'
-$password = 'B@ptivity0117'
+$password = '*********'
 $printername = 'Xerox01-Local-Johnson Co'
-$ipaddress = '172.16.42.236'
+$ipaddress = '172.166.42.236'
 
 foreach($computer in ('HFPPL0581XT5K12'))
 
