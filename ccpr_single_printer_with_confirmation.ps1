@@ -11,7 +11,7 @@ cd c:\batchfiles
 cls
 
 $user='eas\eas-phillip.trimble'
-$password='B@ppy0415'
+$password='***************'
 
 # Set IP address, office and printer name
 
@@ -19,7 +19,7 @@ $ipaddress = Read-Host 'Enter Printer IP Address '
 $office = Read-Host 'Enter County (county.txt) '
 $printername = Read-Host 'Enter Printer Name '
 
-#$ipaddress = '10.65.10.182'
+#$ipaddress = '10.65.105.182'
 #$office = 'boyd-kyova mall.txt'
 #$printername = "Xerox WorkCentre 5945"
 
