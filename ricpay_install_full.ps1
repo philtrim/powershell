@@ -15,7 +15,7 @@ function Install-RicPay
     param ($county, $code, $computer)  #Example:  Install-Ricpay
 
 cls
-write-host "Processing..."  
+write-host "Processing...."  
 
 
 $inst = '\\hfsro121-0581\oit'  # Change this to whatever location you want to store your install files in (I used this variable to shorten my path below)
