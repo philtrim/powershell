@@ -10,7 +10,7 @@ $printername = read-host "Enter Printer Name "
 $ipaddress = read-host "Enter Printer IP Address "
 #$computers = read-host "Enter Computers, Separated by Comma, no Spaces"
 $computers = get-content c:\batchfiles\regional_need_xerox04.txt
-#$computers = $computers.split(",")
+ #$computers = $computers.split(",")
 
 foreach ($computer in $computers)
 
