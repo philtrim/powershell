@@ -6,6 +6,9 @@
 $license32 = 'SAS94_9CFXJZ_70006657_Win_Wrkstn.txt'
 $license64 = 'SAS94_9CFXKZ_70108670_Win_X64_Wrkstn.txt'
 
+$sasversion64 = ""
+$sasversion32 = ""
+
 cls
 write-output "**** SAS License Update ****"
 #$computers = get-content "\\172.16.42.3\deploy\sas\$source"
