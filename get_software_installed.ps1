@@ -1,1 +1,0 @@
-﻿Invoke-Command -cn HFTW098D42K9282  -ScriptBlock {Get-ItemProperty HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall\* | select DisplayName, Publisher, InstallDate }
