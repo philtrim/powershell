@@ -1,4 +1,4 @@
-﻿if (!(net session)) {$path =  "& '" + $myinvocation.mycommand.definition + "'" ; Start-Process powershell -Verb runAs -ArgumentList $path ; exit}
+﻿#if (!(net session)) {$path =  "& '" + $myinvocation.mycommand.definition + "'" ; Start-Process powershell -Verb runAs -ArgumentList $path ; exit}
 cls
 write-output "**** CHFS FS Full Install ****"
 
